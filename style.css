@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url(bootstrap-5.2.3-dist/font/Font_Bassic/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2);
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    background-color: gray;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+
+/*          Box          */
+
+.box {
+    background-color: white;
+    box-shadow: 0px 0px 50px white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.container {
+    width: 95%;
+    padding: 0;
+}
+
+/*          Banner           */
+
+.Banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.MQ {
+    background-color: #68b6e4;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+/*          img          */
+
+.top-menu {
+    box-shadow: 2px 2px 8px black;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+}
+
+.carousel {
+    box-shadow: 2px 2px 8px black;
+}
+
+/*          menu             */
+
+.a-menu {
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+}
+
+.text-menu {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#68b6e4, #28b0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+/*          BF           */
+
+#BF {
+    background-color: rgb(74, 73, 73);
+    padding: 20px;
+}
+
+.a-li {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+}
+
+li {
+    list-style: none;
+}
+
+.BT {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+/*              footer           */
+
+footer {
+    background-color: #28b0ff;
+    padding: 20px;
+}
+
+/*          AD           */
+
+.img-AD {
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100%;
+    box-shadow: 2px 2px 8px black;
+    margin: auto;
+    display: block;
+}
+
+/*              Hover            */
+
+img:hover {
+    transform: scale(1.15,1.15);
+}
+
+img {
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 10px gray;
+}
+
+.card {
+    transition: box-shadow 0.5s;
+}
+
+.navbar-brand:hover {
+    color: #68b6e4;
+}
